@@ -1,15 +1,14 @@
-# Ejercicio: Implementa una función recursiva para calcular el factorial de un número.
-
+# Exercise: Implement a recursive function to calculate the factorial of a number.
 def factorial(n):
     if n == 0:
         return 1
     return n * factorial(n - 1)
 
-# Ejemplo
+# Example:
 n = 5
 print(factorial(n))  
 
 # Output: 120 (5!)
 
-# Complejidad temporal: O(n), donde n es el número para el que se calcula el factorial.
-# Esto se debe a que el algoritmo realizará n multiplicaciones en total.
+# Time complexity: O(n), where 'n' is the number for which the factorial is calculated.
+# The algorithm will perform 'n' multiplications in total.
