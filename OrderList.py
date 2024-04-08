@@ -1,5 +1,4 @@
-# Ejercicio: Dada una lista de números desordenados, ordénala de menor a mayor utilizando el algoritmo de selección.
-
+# Exercise: Given a list of unordered numbers, sort it from least to greatest using the selection algorithm.
 def selection_sort(arr):
     n = len(arr)
     for i in range(n - 1):
@@ -10,7 +9,7 @@ def selection_sort(arr):
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
     return arr
 
-# Ejemplo
+# Example:
 unsorted_list = [64, 25, 12, 22, 11]
 sorted_list = selection_sort(unsorted_list)
 
