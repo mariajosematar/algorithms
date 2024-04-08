@@ -7,7 +7,7 @@ Here, you'll find implementations of various algorithms, to tackle an array of p
 # Why Explore This Repository?
  
 - **Optimization and Efficiency:** Every algorithm is designed with optimization and efficiency in mind to aid in swift problem-solving.
-- - **Diverse Array of Algorithms:** Spanning a wide range of algorithmic techniques, from brute-force search to dynamic programming, traversing through algorithms and recursion, this repository offers comprehensive coverage.
+- **Diverse Array of Algorithms:** Spanning a wide range of algorithmic techniques, from brute-force search to dynamic programming, traversing through algorithms and recursion, this repository offers comprehensive coverage.
 - **Interactive Learning:** This repository offers an interactive learning experience for both beginners and experts. Our annotated complexity analysis guides you through each algorithm, helping you improve your problem-solving skills.
   
 ## Project log
