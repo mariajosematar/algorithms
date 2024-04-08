@@ -25,7 +25,7 @@ Here, you'll find implementations of various algorithms, to tackle an array of p
 
 ## Contribution
 
-Feel free to contribute your ideas to improve our repository. Your insights can enhance existing algorithms, improve implementations, or fix errors.
+Feel free to contribute your ideas to improve my repository. Your insights can enhance existing algorithms, improve implementations, or fix errors.
 
 ## License
 
