@@ -1,5 +1,4 @@
-# Ejercicio: Dado un conjunto de monedas con valores [1, 5, 10, 25], encuentra la combinación de monedas con la menor cantidad posible para dar un cambio de n centavos.
-
+# Exercise: Given a set of coins with values ​​[1, 5, 10, 25], find the combination of coins with the smallest possible amount to give a change of n cents.
 def make_change(coins, amount):
     coins.sort(reverse=True)
     change = []
@@ -9,7 +8,7 @@ def make_change(coins, amount):
             change.append(coin)
     return change
 
-# Ejemplo
+# Example:
 coins = [1, 5, 10, 25]
 amount = 48
 
@@ -18,5 +17,5 @@ print(make_change(coins, amount))
 
 # Output: [25, 10, 10, 1, 1, 1]
 
-# Complejidad temporal: O(n), donde n es el número de monedas necesarias para dar el cambio.
-# Esto se debe a que el algoritmo iterará sobre la lista de monedas una vez para cada moneda necesaria.
+# Time complexity: O(n), where 'n' is the number of coins needed to make the change.
+# This is because the algorithm will iterate over the coin list once for each coin needed.
